@@ -1,0 +1,38 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    fontFamily: {
+      Poppins: "Poppins"
+    },
+    extend: {
+      colors: {
+        Red: "#D22B2B",
+        HummingBird: "#d1f1ee",
+        yellow: "#e4d63b",
+        Solitude: "#e9e9ea",
+      },
+      animation: {
+        slide: "slide 25s linear infinite"
+      },
+      keyframes: {
+        slide: {
+          "0%,100%" : {transform: "translateX(5%)"},
+          "50%": {transform: "translateX(-120%)"}
+        }
+      },
+      width: {
+        '150': '150px',
+      }
+    },
+    screens: {
+      xs: "480px",
+      sm: "768px",
+      md: "1060px",
+    },
+  },
+  plugins: [],
+}

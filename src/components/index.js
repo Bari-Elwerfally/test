@@ -13,3 +13,5 @@ import SignIn from "./SignIn/SignIn";
 import SignUp from "./SignUp/SignUp";
 
 export { Navbar, Home, About, Services, ServiceDetails, Questions, Contact, Footer, SignIn, SignUp };
+
+/* Remove or update references to old title */
